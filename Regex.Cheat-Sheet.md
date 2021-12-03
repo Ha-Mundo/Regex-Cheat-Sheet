@@ -2,7 +2,7 @@
 
 Regular Expressions are notoriously difficult to learn - they have a very compact syntax that ends up looking like gibberish. However, they can be extremely powerful when it comes to form validation, find and replace tasks, and/or searching through a body of text. The following cheatsheet provides common RegEx examples and techniques for the JavaScript developer.
 
-🔥 There are several awesome tools that can help you debug RegEx in the browser - my personal favorite is RegExr ( regex.com ).
+🔥 There are several awesome tools that can help you debug RegEx in the browser - my personal favorite is RegExr  regex.com .
 
 # Regex Reference
 
