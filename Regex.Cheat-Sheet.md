@@ -2,7 +2,7 @@
 
 Regular Expressions are notoriously difficult to learn - they have a very compact syntax that ends up looking like gibberish. However, they can be extremely powerful when it comes to form validation, find and replace tasks, and/or searching through a body of text. The following cheatsheet provides common RegEx examples and techniques for the JavaScript developer.
 
-🔥 There are several awesome tools that can help you debug RegEx in the browser - my personal favorite is RegExr  https://regexr.com/ .
+🔥 There are several awesome tools that can help you debug RegEx in the browser - my personal favorite is RegExr https://regexr.com/ .
 
 # Regex Reference
 
@@ -40,6 +40,12 @@ Regular Expressions are notoriously difficult to learn - they have a very compac
 - `hello world` exact match
 - `^hello` start of the strings
 - `world$` end of the string
+
+## Flags
+
+Expression flags change how the expression is interpreted. Flags follow the closing forward slash of the expression (ex. /.+/igm ).
+
+-`i` Ignore case makes the whole expression case-insensitive. For example, /aBc/i would match AbC -`g` To search or extract a pattern more than once, you can use the g flag
 
 # How to Use RegEx in JavaScript
 
