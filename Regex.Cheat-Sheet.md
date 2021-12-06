@@ -62,6 +62,11 @@ const re = new RegExp(/foo/);
 There are several ways to use a regular expression on a string primitive, such as (1) `match` all the occurrences, (2) `search` for the existence of a pattern, or (3) `replace` matches with a new value.
 
 ```js
+let myString = "Hello, World!";
+let myRegex = /Hello/;
+let result = myRegex.test(myString);
+// Output: true
+
 const matches = "aBC".match(/[A-Z]/g);
 // Output: Array [B, C]
 
