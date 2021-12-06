@@ -43,9 +43,10 @@ Regular Expressions are notoriously difficult to learn - they have a very compac
 
 ## Flags
 
-Expression flags change how the expression is interpreted. Flags follow the closing forward slash of the expression (ex. /.+/igm ).
+Expression flags change how the expression is interpreted. Flags follow the closing forward slash of the expression (ex. `/.+/igm` ).
 
--`i` Ignore case makes the whole expression case-insensitive. For example, /aBc/i would match AbC -`g` To search or extract a pattern more than once, you can use the g flag
+- `i` Ignore case makes the whole expression case-insensitive. For example, `/aBc/i` would match `AbC`
+- `g` To search or extract a pattern more than once
 
 # How to Use RegEx in JavaScript
 
