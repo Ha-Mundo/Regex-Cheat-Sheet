@@ -86,6 +86,20 @@ const next = "aBC".replace(/a/, "A");
 
 # Common Examples
 
+## Phone numbers validation
+
+If you want to use regular expression for validating phone or mobile numbers followed by country code. For example if you want to validating Italian mobile numbers followed by +39, then you can use the following regex:
+
+```js
+const re = /(\+39[\-\s])\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+```
+
+Or a simplified version for any country code:
+
+```js
+const re = /^(\+\d{2}[\-\s]?)\d{10}$/;
+```
+
 ## Password Validation
 
 How do you validate the format of a password for a signup form? Let’s force passwords to contain a capital letter, lowercase letter, number, and min length of 8.
